@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T17:34:03+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T17:34:03+00:00" />
+  <meta name="dc.modified" content="2023-11-07T17:42:18+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T17:42:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/bd5330a4136773a3b6f63d990acef4e6d8402592/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/bd5330a4136773a3b6f63d990acef4e6d8402592/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/bd5330a4136773a3b6f63d990acef4e6d8402592/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/e2a1658a60c21438bf216922d056f14f04b2059a/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/e2a1658a60c21438bf216922d056f14f04b2059a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/e2a1658a60c21438bf216922d056f14f04b2059a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -53,7 +53,7 @@ manubot-clear-requests-cache: false
 ...
 
 ---
-title: Documento de Arquitectura Cotizador Web Mi Mutual, Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva
+title: Manual Técnico Cotizador Web Mi Mutual, Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva
 subtitle: Cotizador Web Mi Mutual. Mi Mutual Coomeva - Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
 geometry:
   - top=1in
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.bd5330a de 07 Nov 2023
+| **Versión** del producto 1.e2a1658 de 07 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/bd5330a4136773a3b6f63d990acef4e6d8402592/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/e2a1658a60c21438bf216922d056f14f04b2059a/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@bd5330a](http://stefanini.sharepoint.com)
+[Sharepoint STEF@e2a1658](http://stefanini.sharepoint.com)
 del November 7, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.bd5330a del 07 Nov 2023 |
+| Versión        | 1.e2a1658 del 07 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
