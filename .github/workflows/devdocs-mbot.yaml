@@ -1,4 +1,4 @@
-name: stef-cotizador
+name: stef-cotizdr-manltecn
 on:
   push:
     branches:
