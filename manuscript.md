@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T18:00:31+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T18:00:31+00:00" />
+  <meta name="dc.modified" content="2023-11-07T18:08:58+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T18:08:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/cfaee769191c1432c0d1eb8119587cca08543269/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/cfaee769191c1432c0d1eb8119587cca08543269/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/cfaee769191c1432c0d1eb8119587cca08543269/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/13fe515b2781b827a1e8fce7b09b01bde18365f4/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/13fe515b2781b827a1e8fce7b09b01bde18365f4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/13fe515b2781b827a1e8fce7b09b01bde18365f4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.cfaee76 de 07 Nov 2023
+| **Versión** del producto 1.13fe515 de 07 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/cfaee769191c1432c0d1eb8119587cca08543269/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/13fe515b2781b827a1e8fce7b09b01bde18365f4/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@cfaee76](http://stefanini.sharepoint.com)
+[Sharepoint STEF@13fe515](http://stefanini.sharepoint.com)
 del November 7, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.cfaee76 del 07 Nov 2023 |
+| Versión        | 1.13fe515 del 07 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -341,33 +341,13 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 ## Cotizador. 8. Instalación
 ![Diagram: Cotizador. 8. Instalación](images/Cotizador.8.Instalación.png){#fig:Cotizador.8.Instalación width=}
 
-Modelo de negocio (lógico) de Mi Mutual, extensible a sus demás módulos, como el Cotizador Web y demás. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
+## Copia e instalación de recursos necesarios
+El proceso inicia ingresando a la siguiente ruta para descargar los instaladores:
+https://stefaninilatam.sharepoint.com/sites/mimutualscrumteam/Shared%20Documents/Forms/AllIte ms.aspx?RootFolder=%2Fsites%2Fmimutualscrumteam%2FShared%20Documents%2FFuentes%20Mi%2 0Mutual&FolderCTID=0x012000DE4DD055775DC94181E3B9081D8D552A
 
-
-### Conceptos Principales
-
-1. Configuración
-1. Vinculación
-1. Venta
-1. Cotización
-1. Factura
-1. Cobertura
-1. Configuración
-1. Plan de producto
-
-
-### Orden Operativo
-
-1. Configuración
-1. Vinculación
-1. Venta o Cotización
-1. Factura
+![Diagram: Cotizador. 2. Contenedores](images/Picture1.jpg){#fig:Picture1 width=}
 
 <br>
-
-### Relación Negocio Datos
-La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
-
 
 
 ### Catálogo de Elementos
@@ -567,7 +547,7 @@ La relación entre los conceptos de negocio y el modelo de datos se encuentra en
 <br>
 
 
-``Generated on: Tue Nov 07 2023 12:53:50 GMT-0500 (COT)``
+``Generated on: Tue Nov 07 2023 13:06:39 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
