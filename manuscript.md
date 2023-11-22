@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-11-07'
+date-meta: '2023-11-22'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-11-07" />
-  <meta name="citation_publication_date" content="2023-11-07" />
-  <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T18:08:58+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T18:08:58+00:00" />
+  <meta name="dc.date" content="2023-11-22" />
+  <meta name="citation_publication_date" content="2023-11-22" />
+  <meta property="article:published_time" content="2023-11-22" />
+  <meta name="dc.modified" content="2023-11-22T04:40:42+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T04:40:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/13fe515b2781b827a1e8fce7b09b01bde18365f4/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/13fe515b2781b827a1e8fce7b09b01bde18365f4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/13fe515b2781b827a1e8fce7b09b01bde18365f4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/4695c1413dd5f21094864ac074659dfba08d9580/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/4695c1413dd5f21094864ac074659dfba08d9580/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/4695c1413dd5f21094864ac074659dfba08d9580/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.13fe515 de 07 Nov 2023
+| **Versión** del producto 1.4695c14 de 22 Nov 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 07 Nov 2023
+| 22 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/13fe515b2781b827a1e8fce7b09b01bde18365f4/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/4695c1413dd5f21094864ac074659dfba08d9580/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@13fe515](http://stefanini.sharepoint.com)
-del November 7, 2023.
+[Sharepoint STEF@4695c14](http://stefanini.sharepoint.com)
+del November 22, 2023.
 </em></small>
 
 
@@ -139,10 +139,11 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 ##  Control de Cambios {.page_break_before}
 | Tema           | Mi Mutual Coomeva Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva      |
 |----------------|----------------------------|
-| Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
+| Palabras clave | Mi Mutual, Cotizador, Web, Stefanini, Coomeva, Brecha, GAP, Comparativa |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.13fe515 del 07 Nov 2023 |
+| **Versión**    |                            |
+
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
