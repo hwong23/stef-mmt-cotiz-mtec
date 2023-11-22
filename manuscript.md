@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T04:40:42+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T04:40:42+00:00" />
+  <meta name="dc.modified" content="2023-11-22T11:43:11+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T11:43:11+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/4695c1413dd5f21094864ac074659dfba08d9580/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/4695c1413dd5f21094864ac074659dfba08d9580/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/4695c1413dd5f21094864ac074659dfba08d9580/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/b2a7303637af9103a30c571b751cd5e879f47226/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/b2a7303637af9103a30c571b751cd5e879f47226/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/b2a7303637af9103a30c571b751cd5e879f47226/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.4695c14 de 22 Nov 2023
+| **Versión** del producto 1.b2a7303 de 22 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/4695c1413dd5f21094864ac074659dfba08d9580/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/b2a7303637af9103a30c571b751cd5e879f47226/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@4695c14](http://stefanini.sharepoint.com)
+[Sharepoint STEF@b2a7303](http://stefanini.sharepoint.com)
 del November 22, 2023.
 </em></small>
 
@@ -265,30 +265,48 @@ Table: Requisito no. 3, Desarrollo Cotizador Web Mi Mutual, Flexibilidad. {#tbl:
 \newpage
 
 
-# Vistas de Arquitectura Cotizador . Manual
+# Doc. 3 Vistas de Arquitectura Cotizador. Manual
 * [Manual Técnico Cotizador Web (Mi Mutual)](#manual-técnico-cotizador-web-mi-mutual)
-	* [Cotizador. 5. Físico (despliegue)](#cotizador.-5.-físico-despliegue)
+	* [Cotizador. 5. Físico. Despliegue](#cotizador.-5.-físico.-despliegue)
+	* [Cotizador. 4a. Dependencias](#cotizador.-4a.-dependencias)
+	* [Cotizador. 7. Datos. Negocio](#cotizador.-7.-datos.-negocio)
+	* [Cotizador. 7a. Modelo Negocio](#cotizador.-7a.-modelo-negocio)
 	* [Cotizador. 8. Instalación](#cotizador.-8.-instalación)
-	* [Cotizador. 8a. Instalación 1](#cotizador.-8a.-instalación-1)
-	* [Cotizador. 8b. Instalación 2](#cotizador.-8b.-instalación-2)
-	* [Cotizador. 8c. Instalación 3](#cotizador.-8c.-instalación-3)
-	* [Cotizador. 8d. Instalación 4](#cotizador.-8d.-instalación-4)
-	* [Cotizador. 9. Administración Configuración](#cotizador.-9.-administración-configuración)
 
 
 <div style="page-break-before: always;"></div>
 \newpage
 
 # Manual Técnico Cotizador Web (Mi Mutual)
-## Cotizador. 5. Físico (despliegue)
-![Diagram: Cotizador. 5. Físico (despliegue)](images/Cotizador.5.Físico(despliegue).png){#fig:Cotizador.5.Físico(despliegue) width=}
+## Cotizador. 5. Físico. Despliegue
+![Vista. Cotizador. 5. Físico. Despliegue](images/Cotizador.5.Físico.Despliegue.png){#fig:Cotizador.5.Físico.Despliegue width=}
 
 ### Especificaciones de Despliegue Cotizador Web
-Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local (2022).
+Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo servidor y local (2022), librerías de desarrollo (frameworks), lenguajes, instalaciones y sus versiones.
 
-#### Recursos Requeridos
+Especificaciones de despliegue Mi Mutual, 2023, Componente Central y Cotizador Web.
+
+* Estándares para el manejo de servicios REST sobre HTTP 1.1
+* Tecnologías para el backend: Java 8 con Spring Boot 2.1.4
+* Acceso a Datos: Spring Data 2.1.4
+* Seguridad de las API: Spring Security + Oauth2.0
+* Plataforma de despliegue Backend: Tomcat Spring Boot
+* Tecnologías para el frontend Mi Mutual Central: Angular 9
+* Tecnologías para el frontend Cotizador Web: Angular 14
+* Entorno de ejecución Javascript: nodejs 14.2.0
+* Librería de Estilos Bootstrap 4.x
+* Servidor web (HTTP 1.1): Apache 2.x
+* Servidor BPM, Flowable, versión 6.5.0 con JRE 8
+* Spring Cloud, versión Greenwich SR2
+* Querydsl, version 4.2.1
+* Bases de datos IBM DB2, AS400
+
+<br>
+
+
+#### Recursos y Herramientas Requeridas
 * Git. Se debe instalar git para poder realizar la clonación de cada uno de los proyectos mas adelante.
-* Instalación SmartGit. Se debe instalar Smartgit para poder realizar la clonación de cada uno de los proyectos mas adelante, este es opcional ya que es una interfaz gráfica de git mas amigable para el usuario en caso que no desee trabajar con la consola.
+* SmartGit. Se debe instalar Smartgit para poder realizar la clonación de cada uno de los proyectos mas adelante, este es opcional ya que es una interfaz gráfica de git mas amigable para el usuario en caso que no desee trabajar con la consola.
 * DBeaver. Se debe instalar DBeaver para poder acceder a la base de datos. 
 * Instalación Maven. Se debe instalar maven para poder compilar los proyectos, nos debemos asegurar de instalar la versión 3.6.3, en caso que no se encuentra en la página oficial copiar la carpeta que esta en el repositorio a archivo de programas. 
 * Java 8. Se debe instalar Java para poder desplegar los proyectos mas adelante, nos debemos asegurar de instalar la versión 8. 
@@ -297,7 +315,7 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 * Postman. Se debe instalar el postman para poder consumir los servicios del backend mas adelante cuando ya se hayan desplegado.
 * Node Js. Se debe instalar Node Js para configurar el proyecto front mas adelante, nos debemos asegurar de instalar la versión v14.2.0.
 * Visual Studio Code. Se debe instalar el IDE para realizar modificaciones al proyecto front mas adelante en este caso Visual Studio code. 
-* Angular 14.
+* Librería para desarrollo frontend Cotizador Web: Angular 14
 
 <br>
 
@@ -307,7 +325,7 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
@@ -332,15 +350,224 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 |**pkg: reportes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**Conexión: jdbc**|artifact||*modulo:* cotizador<br>|
+|**Spring Boot 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
+|**Spring Data 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
 |**Entorno Angular: ng 14.0.0**|system-software||*modulo:* cotizador<br>|
-|**Entorno JS: node 14.2.0**|system-software||*modulo:* cotizador<br>|
+|**Entorno Java: JRE 1.8**|system-software||*brecha:* 30<br>*:* <br>|
 |**Repositorio: db2 iSerie**|system-software||*modulo:* cotizador<br>|
-|**Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
+|**cotizador Entorno JS: node 14.2.0**|system-software||*modulo:* cotizador<br>|
+|**mimutual Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
+
+<br>
+
+## Cotizador. 4a. Dependencias
+![Vista. Cotizador. 4a. Dependencias](images/Cotizador.4a.Dependencias.png){#fig:Cotizador.4a.Dependencias width=}
+
+### Paquetes y Dependencias Cotizador Web
+Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 [^1]).
+
+[^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de facilitar el desarrollo gestionado.
+
+### Módulos Cotizador Web
+La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
+|**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: administración**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: asociados**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: auth**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cliente**|application-component|controladores web de cliente. Reúne las clases que constituyen el modelo de entrada/salida de la interfaz gráfica de Clientes. Distinto al paquete admin controlador Clientes (pkg: web.clientes).<br>|*modulo:* cotizador<br>|
+|**pkg: clientes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación. Disitnto al paquete web de Cliente (pkg: admin.cliente).|*modulo:* cotizador<br>|
+|**pkg: componentes**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: config**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cotizaciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cotización**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: directivas**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: home**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: interfaces**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: modelos**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: multiactiva**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: protecciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: proveedores**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: reporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: reportes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: transporte**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: util**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**(web) Cotizador**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
+|**(web) admin Páginas**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
+|**Aplicativo**|application-function|Grupo de funcionalidades y entidades (datos) específicas del Cotizador Web.<br>|*modulo:* cotizador<br>|
+|**Interfaz gráfica**|application-function|Módulo interno (carpeta de proyecto) contenedor de las plantiilas de páginas web del Cotizador.<br>|*modulo:* cotizador<br>|
+|**Módulos Compartidos**|application-function|Librerías de software base que el Cotizador Web requiere. Dependencias a paquetes de software de base, distintas a los módulos de negocio, necesarios para la ejecución de tareas utilitarias del Cotizador, tales como comunicación, políticas de seguridad, especificación de objetos globales de interfaz, transporte, transformación, entre otras.<br>|*modulo:* cotizador<br>|
+|**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
+|**admin Servicios**|application-function||*modulo:* cotizador<br>|
+
+<br>
+
+## Cotizador. 7. Datos. Negocio
+![Vista. Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
+
+La relación del modelo de negocio Mi Mutual con el modelo de datos del Cotizador Web orienta la navegación en el modelo de datos en aquellas historias de usuario que impliquen a alguna de estas entidades.
+
+Este modelo de relación negocio-datos es evolutivo: irá cambiando en la medida de que el negocio o el modelo de datos cambien.
+
+### Entidades de Negocio Mi Mutual
+Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
+
+* Configuración (caracterización de productos, plan)
+* Plan (producto pólizas seguros)
+* Canal (medios del tomador/asociado)
+* Parametros globales (catálogos)
+* Portafolio de asociado
+* Asociado
+* Facturación
+* Beneficiario
+
+<br>
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+|**DAT00. Cobertura**|business-object|||
+|**DAT00.Asegurado**|business-object|||
+|**DAT00.Asociado**|business-object|||
+|**DAT00.Beneficiario**|business-object|||
+|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
+|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Cotización**|business-object|||
+|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
+|**DAT00.Plan - Cobertura**|business-object|||
+|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
+|**DAT00.Plan de Pagos**|business-object|||
+|**DAT00.Planes**|business-object|||
+|**DAT00.Producto**|business-object|||
+|**DAT00.Venta**|business-object|||
+|**DAT00.Vinculación**|business-object|||
+|**DAT01.CANAL_CONFIG_MOV**|data-object|||
+|**DAT01.CANAL_EVENTO**|data-object|||
+|**DAT01.CANAL_VENTA_EXCLUSION**|data-object|||
+|**DAT01.CANAL_VENTA_EXCLUSION_COBERTURA**|data-object|||
+|**DAT01.CICLO_FACTURACION**|data-object|||
+|**DAT01.COBERTURA**|data-object|||
+|**DAT01.COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
+|**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
+|**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
+|**DAT01.COTIZACION_DETALLE_TEMP**|data-object|||
+|**DAT01.COTIZACION_DETALLE_TEMP**|data-object|||
+|**DAT01.COTIZACION_PLAN_TEMP**|data-object|||
+|**DAT01.COTIZACION_PLAN_TEMP**|data-object|||
+|**DAT01.COTIZACION_TEMP**|data-object|||
+|**DAT01.COTIZACION_TEMP**|data-object|||
+|**DAT01.ESTADO_COTIZACION**|data-object|||
+|**DAT01.ESTADO_VENTA**|data-object|||
+|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.MEDIO_FACTURACION**|data-object|||
+|**DAT01.MEDIO_FACTURACION**|data-object|||
+|**DAT01.MIM_COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
+|**DAT01.MOVIMIENTO_PLAN_CANAL**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PLAN**|data-object|||
+|**DAT01.PLAN_CANAL_VENTA**|data-object|||
+|**DAT01.PLAN_CANAL_VENTA**|data-object|||
+|**DAT01.PLAN_COBERTURA**|data-object|||
+|**DAT01.PLAN_COBERTURA_DEPENDIENTE**|data-object|||
+|**DAT01.PLAN_COBERTURA_EDAD**|data-object|||
+|**DAT01.PLAN_COBERTURA_TIPO_COBERTURA**|data-object|||
+|**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
+|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
+|**DAT01.PLAN_NIVEL_RIESGO**|data-object|||
+|**DAT01.PLAN_OBLIGATORIO**|data-object|||
+|**DAT01.PLAN_PARENTESCO**|data-object|||
+|**DAT01.PLAN_PERSEVERANTE**|data-object|||
+|**DAT01.PRE_VENTA**|data-object|||
+|**DAT01.PRODUCTO_COBERTURA**|data-object|||
+|**DAT01.PROMOTOR_CANAL**|data-object|||
+|**DAT01.PROSPECTO_ASOCIADO_COTIZACION**|data-object|||
+|**DAT01.RESPONSABLE_PERSONA**|data-object|||
+|**DAT01.RESPONSABLE_PERSONA**|data-object|||
+|**DAT01.SIP_PRODUCTOS**|data-object|||
+|**DAT01.SIP_PRODUCTOS_TIPO**|data-object|||
+|**DAT01.TIPO_COTIZACION**|data-object|||
+|**DAT01.TIPO_VENTA**|data-object|||
+|**DAT01.VENTA**|data-object|||
+|**DAT01.VENTAS_PREGUNTAS**|data-object|||
+|**DAT01.VENTA_ASEGURADO**|data-object|||
+|**DAT01.VENTA_DETALLE**|data-object|||
+|**DAT01.VENTA_PLAN**|data-object|||
+|**DAT10.COBERTURA_BENEFICIARIO**|data-object|||
+
+<br>
+
+## Cotizador. 7a. Modelo Negocio
+![Vista. Cotizador. 7a. Modelo Negocio](images/Cotizador.7a.ModeloNegocio.png){#fig:Cotizador.7a.ModeloNegocio width=}
+
+Modelo de negocio (lógico) de Mi Mutual, Mi Mutual Web, extensible a sus demás módulos, como el Cotizador Web y otros. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
+
+
+### Conceptos Principales
+
+1. Venta
+1. Cotización
+1. Configuración
+1. Vinculación
+1. Factura
+1. Cobertura
+1. Configuración
+1. Plan de producto
+
+
+### Orden Operativo
+
+1. Configuración
+1. Vinculación
+1. Venta o Cotización
+1. Factura
+
+<br>
+
+### Relación Negocio Datos
+La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
+
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+|**Auditoría Médica**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
+|**DAT00. Cobertura**|business-object|||
+|**DAT00. Glosa**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
+|**DAT00.Asociado**|business-object|||
+|**DAT00.Auxilio Funerario**|business-object|||
+|**DAT00.Beneficiario**|business-object|||
+|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
+|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Cotización**|business-object|||
+|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
+|**DAT00.Plan - Cobertura**|business-object|||
+|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
+|**DAT00.Plan de Pagos**|business-object|||
+|**DAT00.Planes**|business-object|||
+|**DAT00.Producto**|business-object|||
+|**DAT00.Solicitud**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Venta**|business-object|||
+|**DAT00.Vinculación**|business-object|||
+|**Fondo Solidaridad**|business-object|||
 
 <br>
 
 ## Cotizador. 8. Instalación
-![Diagram: Cotizador. 8. Instalación](images/Cotizador.8.Instalación.png){#fig:Cotizador.8.Instalación width=}
+![Vista. Cotizador. 8. Instalación](images/Cotizador.8.Instalación.png){#fig:Cotizador.8.Instalación width=}
 
 ## Copia e instalación de recursos necesarios
 El proceso inicia ingresando a la siguiente ruta para descargar los instaladores:
@@ -352,203 +579,13 @@ https://stefaninilatam.sharepoint.com/sites/mimutualscrumteam/Shared%20Documents
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-
-<br>
-
-## Cotizador. 8a. Instalación 1
-![Diagram: Cotizador. 8a. Instalación 1](images/Cotizador.8a.Instalación1.png){#fig:Cotizador.8a.Instalación1 width=}
-
-Modelo de negocio (lógico) de Mi Mutual, extensible a sus demás módulos, como el Cotizador Web y demás. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
-
-
-### Conceptos Principales
-
-1. Configuración
-1. Vinculación
-1. Venta
-1. Cotización
-1. Factura
-1. Cobertura
-1. Configuración
-1. Plan de producto
-
-
-### Orden Operativo
-
-1. Configuración
-1. Vinculación
-1. Venta o Cotización
-1. Factura
-
-<br>
-
-### Relación Negocio Datos
-La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
-
-
-
-### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-
-<br>
-
-## Cotizador. 8b. Instalación 2
-![Diagram: Cotizador. 8b. Instalación 2](images/Cotizador.8b.Instalación2.png){#fig:Cotizador.8b.Instalación2 width=}
-
-Modelo de negocio (lógico) de Mi Mutual, extensible a sus demás módulos, como el Cotizador Web y demás. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
-
-
-### Conceptos Principales
-
-1. Configuración
-1. Vinculación
-1. Venta
-1. Cotización
-1. Factura
-1. Cobertura
-1. Configuración
-1. Plan de producto
-
-
-### Orden Operativo
-
-1. Configuración
-1. Vinculación
-1. Venta o Cotización
-1. Factura
-
-<br>
-
-### Relación Negocio Datos
-La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
-
-
-
-### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-
-<br>
-
-## Cotizador. 8c. Instalación 3
-![Diagram: Cotizador. 8c. Instalación 3](images/Cotizador.8c.Instalación3.png){#fig:Cotizador.8c.Instalación3 width=}
-
-Modelo de negocio (lógico) de Mi Mutual, extensible a sus demás módulos, como el Cotizador Web y demás. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
-
-
-### Conceptos Principales
-
-1. Configuración
-1. Vinculación
-1. Venta
-1. Cotización
-1. Factura
-1. Cobertura
-1. Configuración
-1. Plan de producto
-
-
-### Orden Operativo
-
-1. Configuración
-1. Vinculación
-1. Venta o Cotización
-1. Factura
-
-<br>
-
-### Relación Negocio Datos
-La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
-
-
-
-### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-
-<br>
-
-## Cotizador. 8d. Instalación 4
-![Diagram: Cotizador. 8d. Instalación 4](images/Cotizador.8d.Instalación4.png){#fig:Cotizador.8d.Instalación4 width=}
-
-Modelo de negocio (lógico) de Mi Mutual, extensible a sus demás módulos, como el Cotizador Web y demás. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
-
-
-### Conceptos Principales
-
-1. Configuración
-1. Vinculación
-1. Venta
-1. Cotización
-1. Factura
-1. Cobertura
-1. Configuración
-1. Plan de producto
-
-
-### Orden Operativo
-
-1. Configuración
-1. Vinculación
-1. Venta o Cotización
-1. Factura
-
-<br>
-
-### Relación Negocio Datos
-La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
-
-
-
-### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-
-<br>
-
-## Cotizador. 9. Administración Configuración
-![Diagram: Cotizador. 9. Administración Configuración](images/Cotizador.9.AdministraciónConfiguración.png){#fig:Cotizador.9.AdministraciónConfiguración width=}
-
-Modelo de negocio (lógico) de Mi Mutual, extensible a sus demás módulos, como el Cotizador Web y demás. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
-
-
-### Conceptos Principales
-
-1. Configuración
-1. Vinculación
-1. Venta
-1. Cotización
-1. Factura
-1. Cobertura
-1. Configuración
-1. Plan de producto
-
-
-### Orden Operativo
-
-1. Configuración
-1. Vinculación
-1. Venta o Cotización
-1. Factura
-
-<br>
-
-### Relación Negocio Datos
-La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
-
-
-
-### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 
 <br>
 
 
-``Generated on: Tue Nov 07 2023 13:06:39 GMT-0500 (COT)``
+``Generated on: Wed Nov 22 2023 06:38:39 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
