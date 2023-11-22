@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T11:46:12+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T11:46:12+00:00" />
+  <meta name="dc.modified" content="2023-11-22T11:49:59+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T11:49:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/c00f824faf517dcb30795d36ce8d342135950153/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/c00f824faf517dcb30795d36ce8d342135950153/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/c00f824faf517dcb30795d36ce8d342135950153/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/1075b127178d8f163c0e02ec8363795a6c6ae018/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/1075b127178d8f163c0e02ec8363795a6c6ae018/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/1075b127178d8f163c0e02ec8363795a6c6ae018/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.c00f824 de 22 Nov 2023
+| **Versión** del producto 1.1075b12 de 22 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/c00f824faf517dcb30795d36ce8d342135950153/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/1075b127178d8f163c0e02ec8363795a6c6ae018/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@c00f824](http://stefanini.sharepoint.com)
+[Sharepoint STEF@1075b12](http://stefanini.sharepoint.com)
 del November 22, 2023.
 </em></small>
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.1075b12 | 2023-11-22. manual--modelo |
 | 1.c00f824 | 2023-11-22. abstrc |
 | 1.b2a7303 | 2023-11-22. manual--1 |
 | 1.4695c14 | 2023-11-21. abstrc |
@@ -152,8 +153,7 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 | 1.e2a1658 | 2023-11-07. caratula |
 | 1.bd5330a | 2023-11-07. build2 |
 | 1.6197db1 | 2023-11-07. build |
-| 1.daa19ca | 2023-11-07. variables |
-| Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
+| Vínculos       | [N003a Vista Segmento Mi Mutual Coomeva](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
 
@@ -594,7 +594,7 @@ https://stefaninilatam.sharepoint.com/sites/mimutualscrumteam/Shared%20Documents
 <br>
 
 
-``Generated on: Wed Nov 22 2023 06:38:39 GMT-0500 (COT)``
+``Generated on: Wed Nov 22 2023 06:47:59 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
