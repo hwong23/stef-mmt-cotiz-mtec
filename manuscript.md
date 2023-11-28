@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-11-22'
+date-meta: '2023-11-28'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-11-22" />
-  <meta name="citation_publication_date" content="2023-11-22" />
-  <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T11:49:59+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T11:49:59+00:00" />
+  <meta name="dc.date" content="2023-11-28" />
+  <meta name="citation_publication_date" content="2023-11-28" />
+  <meta property="article:published_time" content="2023-11-28" />
+  <meta name="dc.modified" content="2023-11-28T23:35:08+00:00" />
+  <meta property="article:modified_time" content="2023-11-28T23:35:08+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/1075b127178d8f163c0e02ec8363795a6c6ae018/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/1075b127178d8f163c0e02ec8363795a6c6ae018/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/1075b127178d8f163c0e02ec8363795a6c6ae018/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/fe07200039e24bb8bab97dc78686128d14053f41/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/fe07200039e24bb8bab97dc78686128d14053f41/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/fe07200039e24bb8bab97dc78686128d14053f41/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.1075b12 de 22 Nov 2023
+| **Versión** del producto 1.fe07200 de 28 Nov 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 22 Nov 2023
+| 28 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/1075b127178d8f163c0e02ec8363795a6c6ae018/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/fe07200039e24bb8bab97dc78686128d14053f41/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@1075b12](http://stefanini.sharepoint.com)
-del November 22, 2023.
+[Sharepoint STEF@fe07200](http://stefanini.sharepoint.com)
+del November 28, 2023.
 </em></small>
 
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.fe07200 | 2023-11-28. ctzdr--mnltcnco |
 | 1.1075b12 | 2023-11-22. manual--modelo |
 | 1.c00f824 | 2023-11-22. abstrc |
 | 1.b2a7303 | 2023-11-22. manual--1 |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 | 1.4cf8cce | 2023-11-07. crrcn |
 | 1.e2a1658 | 2023-11-07. caratula |
 | 1.bd5330a | 2023-11-07. build2 |
-| 1.6197db1 | 2023-11-07. build |
 | Vínculos       | [N003a Vista Segmento Mi Mutual Coomeva](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -274,13 +274,16 @@ Table: Requisito no. 3, Desarrollo Cotizador Web Mi Mutual, Flexibilidad. {#tbl:
 \newpage
 
 
-# Doc. 3 Vistas de Arquitectura Cotizador. Manual
+# Doc. 3. Vistas de Arquitectura Cotizador. Manual
 * [Manual Técnico Cotizador Web (Mi Mutual)](#manual-técnico-cotizador-web-mi-mutual)
 	* [Cotizador. 5. Físico. Despliegue](#cotizador.-5.-físico.-despliegue)
 	* [Cotizador. 4a. Dependencias](#cotizador.-4a.-dependencias)
-	* [Cotizador. 7. Datos. Negocio](#cotizador.-7.-datos.-negocio)
 	* [Cotizador. 7a. Modelo Negocio](#cotizador.-7a.-modelo-negocio)
+	* [Cotizador. 7. Datos. Negocio](#cotizador.-7.-datos.-negocio)
+	* [Cotizador. 7a. Datos. Físico](#cotizador.-7a.-datos.-físico)
 	* [Cotizador. 8. Instalación](#cotizador.-8.-instalación)
+	* [Cotizador. 9. Administración Configuración](#cotizador.-9.-administración-configuración)
+	* [Cotizador. 1a. Mapa Funcional](#cotizador.-1a.-mapa-funcional)
 
 
 <div style="page-break-before: always;"></div>
@@ -417,107 +420,6 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 
 <br>
 
-## Cotizador. 7. Datos. Negocio
-![Vista. Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
-
-La relación del modelo de negocio Mi Mutual con el modelo de datos del Cotizador Web orienta la navegación en el modelo de datos en aquellas historias de usuario que impliquen a alguna de estas entidades.
-
-Este modelo de relación negocio-datos es evolutivo: irá cambiando en la medida de que el negocio o el modelo de datos cambien.
-
-### Entidades de Negocio Mi Mutual
-Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
-
-* Configuración (caracterización de productos, plan)
-* Plan (producto pólizas seguros)
-* Canal (medios del tomador/asociado)
-* Parametros globales (catálogos)
-* Portafolio de asociado
-* Asociado
-* Facturación
-* Beneficiario
-
-<br>
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**DAT00. Cobertura**|business-object|||
-|**DAT00.Asegurado**|business-object|||
-|**DAT00.Asociado**|business-object|||
-|**DAT00.Beneficiario**|business-object|||
-|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
-|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Cotización**|business-object|||
-|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
-|**DAT00.Plan - Cobertura**|business-object|||
-|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
-|**DAT00.Plan de Pagos**|business-object|||
-|**DAT00.Planes**|business-object|||
-|**DAT00.Producto**|business-object|||
-|**DAT00.Venta**|business-object|||
-|**DAT00.Vinculación**|business-object|||
-|**DAT01.CANAL_CONFIG_MOV**|data-object|||
-|**DAT01.CANAL_EVENTO**|data-object|||
-|**DAT01.CANAL_VENTA_EXCLUSION**|data-object|||
-|**DAT01.CANAL_VENTA_EXCLUSION_COBERTURA**|data-object|||
-|**DAT01.CICLO_FACTURACION**|data-object|||
-|**DAT01.COBERTURA**|data-object|||
-|**DAT01.COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
-|**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
-|**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
-|**DAT01.COTIZACION_DETALLE_TEMP**|data-object|||
-|**DAT01.COTIZACION_DETALLE_TEMP**|data-object|||
-|**DAT01.COTIZACION_PLAN_TEMP**|data-object|||
-|**DAT01.COTIZACION_PLAN_TEMP**|data-object|||
-|**DAT01.COTIZACION_TEMP**|data-object|||
-|**DAT01.COTIZACION_TEMP**|data-object|||
-|**DAT01.ESTADO_COTIZACION**|data-object|||
-|**DAT01.ESTADO_VENTA**|data-object|||
-|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
-|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
-|**DAT01.MEDIO_FACTURACION**|data-object|||
-|**DAT01.MEDIO_FACTURACION**|data-object|||
-|**DAT01.MIM_COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
-|**DAT01.MOVIMIENTO_PLAN_CANAL**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PLAN**|data-object|||
-|**DAT01.PLAN_CANAL_VENTA**|data-object|||
-|**DAT01.PLAN_CANAL_VENTA**|data-object|||
-|**DAT01.PLAN_COBERTURA**|data-object|||
-|**DAT01.PLAN_COBERTURA_DEPENDIENTE**|data-object|||
-|**DAT01.PLAN_COBERTURA_EDAD**|data-object|||
-|**DAT01.PLAN_COBERTURA_TIPO_COBERTURA**|data-object|||
-|**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
-|**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
-|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
-|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
-|**DAT01.PLAN_NIVEL_RIESGO**|data-object|||
-|**DAT01.PLAN_OBLIGATORIO**|data-object|||
-|**DAT01.PLAN_PARENTESCO**|data-object|||
-|**DAT01.PLAN_PERSEVERANTE**|data-object|||
-|**DAT01.PRE_VENTA**|data-object|||
-|**DAT01.PRODUCTO_COBERTURA**|data-object|||
-|**DAT01.PROMOTOR_CANAL**|data-object|||
-|**DAT01.PROSPECTO_ASOCIADO_COTIZACION**|data-object|||
-|**DAT01.RESPONSABLE_PERSONA**|data-object|||
-|**DAT01.RESPONSABLE_PERSONA**|data-object|||
-|**DAT01.SIP_PRODUCTOS**|data-object|||
-|**DAT01.SIP_PRODUCTOS_TIPO**|data-object|||
-|**DAT01.TIPO_COTIZACION**|data-object|||
-|**DAT01.TIPO_VENTA**|data-object|||
-|**DAT01.VENTA**|data-object|||
-|**DAT01.VENTAS_PREGUNTAS**|data-object|||
-|**DAT01.VENTA_ASEGURADO**|data-object|||
-|**DAT01.VENTA_DETALLE**|data-object|||
-|**DAT01.VENTA_PLAN**|data-object|||
-|**DAT10.COBERTURA_BENEFICIARIO**|data-object|||
-
-<br>
-
 ## Cotizador. 7a. Modelo Negocio
 ![Vista. Cotizador. 7a. Modelo Negocio](images/Cotizador.7a.ModeloNegocio.png){#fig:Cotizador.7a.ModeloNegocio width=}
 
@@ -575,6 +477,123 @@ La relación entre los conceptos de negocio y el modelo de datos se encuentra en
 
 <br>
 
+## Cotizador. 7. Datos. Negocio
+![Vista. Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
+
+La relación del modelo de negocio Mi Mutual con el modelo de datos del Cotizador Web orienta la navegación en el modelo de datos en aquellas historias de usuario que impliquen a alguna de estas entidades.
+
+Este modelo de relación negocio-datos es evolutivo: irá cambiando en la medida de que el negocio o el modelo de datos cambien.
+
+### Entidades de Negocio Mi Mutual
+Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
+
+* Configuración (caracterización de productos, plan)
+* Plan (producto pólizas seguros)
+* Canal (medios del tomador/asociado)
+* Parametros globales (catálogos)
+* Portafolio de asociado
+* Asociado
+* Facturación
+* Beneficiario
+
+<br>
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+|**DAT00. Cobertura**|business-object|||
+|**DAT00.Asegurado**|business-object|||
+|**DAT00.Asociado**|business-object|||
+|**DAT00.Beneficiario**|business-object|||
+|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
+|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Cotización**|business-object|||
+|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
+|**DAT00.Plan - Cobertura**|business-object|||
+|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
+|**DAT00.Plan de Pagos**|business-object|||
+|**DAT00.Planes**|business-object|||
+|**DAT00.Producto**|business-object|||
+|**DAT00.Venta**|business-object|||
+|**DAT00.Vinculación**|business-object|||
+|**DAT01.CANAL_CONFIG_MOV**|data-object|||
+|**DAT01.CANAL_EVENTO**|data-object|||
+|**DAT01.CANAL_VENTA_EXCLUSION**|data-object|||
+|**DAT01.CANAL_VENTA_EXCLUSION_COBERTURA**|data-object|||
+|**DAT01.CICLO FACTURACION CONFIG MOV**|data-object|||
+|**DAT01.CICLO_FACTURACION**|data-object|||
+|**DAT01.COBERTURA**|data-object|||
+|**DAT01.COBERTURA_BENEFICIARIO**|data-object|||
+|**DAT01.COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
+|**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
+|**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
+|**DAT01.COTIZACION_DETALLE_TEMP**|data-object|||
+|**DAT01.COTIZACION_DETALLE_TEMP**|data-object|||
+|**DAT01.COTIZACION_PLAN_TEMP**|data-object|||
+|**DAT01.COTIZACION_PLAN_TEMP**|data-object|||
+|**DAT01.COTIZACION_TEMP**|data-object|||
+|**DAT01.COTIZACION_TEMP**|data-object|||
+|**DAT01.ESTADO_COTIZACION**|data-object|||
+|**DAT01.ESTADO_VENTA**|data-object|||
+|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.MEDIO_FACTURACION**|data-object|||
+|**DAT01.MEDIO_FACTURACION**|data-object|||
+|**DAT01.MIM_COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
+|**DAT01.MOVIMIENTO_PLAN_CANAL**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PLAN**|data-object|||
+|**DAT01.PLAN NIVEL RIESGO**|data-object|||
+|**DAT01.PLAN_CANAL_VENTA**|data-object|||
+|**DAT01.PLAN_CANAL_VENTA**|data-object|||
+|**DAT01.PLAN_COBERTURA**|data-object|||
+|**DAT01.PLAN_COBERTURA_DEPENDIENTE**|data-object|||
+|**DAT01.PLAN_COBERTURA_EDAD**|data-object|||
+|**DAT01.PLAN_COBERTURA_TIPO_COBERTURA**|data-object|||
+|**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
+|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
+|**DAT01.PLAN_OBLIGATORIO**|data-object|||
+|**DAT01.PLAN_PARENTESCO**|data-object|||
+|**DAT01.PLAN_PERSEVERANTE**|data-object|||
+|**DAT01.PRE_VENTA**|data-object|||
+|**DAT01.PRODUCTO_COBERTURA**|data-object|||
+|**DAT01.PROMOTOR_CANAL**|data-object|||
+|**DAT01.PROSPECTO_ASOCIADO_COTIZACION**|data-object|||
+|**DAT01.RESPONSABLE PERSONA**|data-object|||
+|**DAT01.RESPONSABLE PERSONA**|data-object|||
+|**DAT01.SIP_PRODUCTOS**|data-object|||
+|**DAT01.SIP_PRODUCTOS_TIPO**|data-object|||
+|**DAT01.TIPO_COTIZACION**|data-object|||
+|**DAT01.TIPO_VENTA**|data-object|||
+|**DAT01.VENTA**|data-object|||
+|**DAT01.VENTAS_PREGUNTAS**|data-object|||
+|**DAT01.VENTA_ASEGURADO**|data-object|||
+|**DAT01.VENTA_DETALLE**|data-object|||
+|**DAT01.VENTA_PLAN**|data-object|||
+
+<br>
+
+## Cotizador. 7a. Datos. Físico
+![Vista. Cotizador. 7a. Datos. Físico](images/Cotizador.7a.Datos.Físico.png){#fig:Cotizador.7a.Datos.Físico width=}
+
+Anexo 1. Referencia al modelo entidad relación del Cotizador Web, Mi Mutual, 2023.
+
+URL: 
+
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+
+<br>
+
 ## Cotizador. 8. Instalación
 ![Vista. Cotizador. 8. Instalación](images/Cotizador.8.Instalación.png){#fig:Cotizador.8.Instalación width=}
 
@@ -593,8 +612,61 @@ https://stefaninilatam.sharepoint.com/sites/mimutualscrumteam/Shared%20Documents
 
 <br>
 
+## Cotizador. 9. Administración Configuración
+![Vista. Cotizador. 9. Administración Configuración](images/Cotizador.9.AdministraciónConfiguración.png){#fig:Cotizador.9.AdministraciónConfiguración width=}
 
-``Generated on: Wed Nov 22 2023 06:47:59 GMT-0500 (COT)``
+Modelo de negocio (lógico) de Mi Mutual, extensible a sus demás módulos, como el Cotizador Web y demás. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
+
+
+### Conceptos Principales
+
+1. Configuración
+1. Vinculación
+1. Venta
+1. Cotización
+1. Factura
+1. Cobertura
+1. Configuración
+1. Plan de producto
+
+
+### Orden Operativo
+
+1. Configuración
+1. Vinculación
+1. Venta o Cotización
+1. Factura
+
+<br>
+
+### Relación Negocio Datos
+La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
+
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+
+<br>
+
+## Cotizador. 1a. Mapa Funcional
+![Vista. Cotizador. 1a. Mapa Funcional](images/Cotizador.1a.MapaFuncional.png){#fig:Cotizador.1a.MapaFuncional width=}
+
+Anexo 1. Referencia al modelo entidad relación del Cotizador Web, Mi Mutual, 2023.
+
+URL: 
+
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+
+<br>
+
+
+``Generated on: Tue Nov 28 2023 18:30:09 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
