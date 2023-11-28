@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-28" />
   <meta name="citation_publication_date" content="2023-11-28" />
   <meta property="article:published_time" content="2023-11-28" />
-  <meta name="dc.modified" content="2023-11-28T23:35:08+00:00" />
-  <meta property="article:modified_time" content="2023-11-28T23:35:08+00:00" />
+  <meta name="dc.modified" content="2023-11-28T23:52:23+00:00" />
+  <meta property="article:modified_time" content="2023-11-28T23:52:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/fe07200039e24bb8bab97dc78686128d14053f41/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/fe07200039e24bb8bab97dc78686128d14053f41/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/fe07200039e24bb8bab97dc78686128d14053f41/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/438ddbd4faa7e3aa2ded01502779889b7d9a7e7a/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/438ddbd4faa7e3aa2ded01502779889b7d9a7e7a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz-mtec/v/438ddbd4faa7e3aa2ded01502779889b7d9a7e7a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.fe07200 de 28 Nov 2023
+| **Versión** del producto 1.438ddbd de 28 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/fe07200039e24bb8bab97dc78686128d14053f41/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz-mtec/v/438ddbd4faa7e3aa2ded01502779889b7d9a7e7a/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@fe07200](http://stefanini.sharepoint.com)
+[Sharepoint STEF@438ddbd](http://stefanini.sharepoint.com)
 del November 28, 2023.
 </em></small>
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.438ddbd | 2023-11-28. upd |
 | 1.fe07200 | 2023-11-28. ctzdr--mnltcnco |
 | 1.1075b12 | 2023-11-22. manual--modelo |
 | 1.c00f824 | 2023-11-22. abstrc |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo del manual técnico Cotizador Web del 
 | 1.cfaee76 | 2023-11-07. arqdocCotzMT |
 | 1.4cf8cce | 2023-11-07. crrcn |
 | 1.e2a1658 | 2023-11-07. caratula |
-| 1.bd5330a | 2023-11-07. build2 |
 | Vínculos       | [N003a Vista Segmento Mi Mutual Coomeva](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -685,7 +685,7 @@ URL:
 
 # Requerimientos de Seguridad
 1. Las soluciones deben dar cumplimiento a las políticas institucionales del sistema de gestión de seguridad de la información establecidas por la entidad que busca garantizar la confidencialidad, integridad y disponibilidad de la información que se genera, procesa, almacena y/o transmite en los sistemas de Información de la Entidad. 
-1. Las soluciones de automatización de procesos a implementar deben permitir la Gestión de Seguridad de Usuarios, grupos de usuarios y asignación de Roles y perfiles de usuarios, permitiendo asociar las acciones disponibles en la solución con respecto a roles de usuario, permitiendo parametrizar las funcionalidades que cada actor puede usar en la solución. 
+1. Las soluciones de automatización de procesos a implementar deben permitir la Gestión de Seguridad de Usuarios, grupos de usuarios y asignación de roles y perfiles de usuarios, permitiendo asociar las acciones disponibles en la solución con respecto a roles de usuario, permitiendo parametrizar las funcionalidades que cada actor puede usar en la solución. 
 1. Un usuario puede estar asociado a uno o más roles, de tal manera que los menús de navegación de la solución se muestran o despliegan dependiendo de las acciones asociadas a cada rol de usuario, permitiendo así que cuando el usuario es autenticado correctamente, la solución verifica los roles que tiene activos para otorgarle únicamente las acciones autorizadas. 
 1. El diseño de la solución debe definir los criterios necesarios para asegurar la trazabilidad y auditoría sobre las acciones de creación, actualización, modificación o borrado de los componentes de información, de tal manera que la solución debe permitirle al administrador de la solución parametrizar las tablas y eventos que pueden auditarse. 
 1. Las soluciones deben tener en cuenta mecanismos que aseguren el registro histórico para poder mantener la trazabilidad de las acciones realizadas por los usuarios, contemplando el registro de auditoría que contiene información de fecha y hora, identificación del registro, tabla afectada, descripción del evento, tipo de evento, usuario que realiza la acción, identificación de sesión y dirección IP del usuario que efectuó la transacción. 
